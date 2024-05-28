@@ -1,15 +1,1224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nehalika.me</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nehalika Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <p><h1>Hi,This is Nehalika</h1>
-    <h3>Portfolio-Server</h3></p>
-    <p>Welcome</p>
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt perferendis tempora quod, beatae ducimus impedit possimus sed consequatur molestiae asperiores, voluptatum odit! A odit quia veniam porro molestiae temporibus cupiditate cum repellat voluptatum. Amet doloribus quam numquam, beatae molestias illo dolor? Dicta, corrupti magnam possimus expedita, autem exercitationem odio cumque adipisci voluptatem sapiente molestias! At facilis veritatis omnis amet voluptatibus molestiae dicta porro laboriosam deserunt reiciendis, ipsum modi, autem odio incidunt molestias inventore animi! Saepe quis libero facere quaerat perspiciatis neque iusto nemo modi, voluptatibus eos ullam minus facilis necessitatibus dolorem, maxime consectetur molestiae, natus dignissimos consequatur magnam rem. Hic deleniti libero dolor excepturi accusantium nostrum inventore consectetur explicabo cupiditate, veniam aliquam voluptas dolores suscipit vel incidunt alias reprehenderit eligendi nesciunt omnis labore ipsum vitae voluptatum architecto! Beatae, cupiditate adipisci? Aliquid facilis hic molestiae assumenda eum. Optio nesciunt quis dolorum esse nulla, numquam culpa modi tenetur laboriosam! Commodi mollitia dolores nam, sint delectus maxime quis eaque quaerat. Officia numquam laborum vitae odit error ipsam nihil quas quia sapiente ipsum modi nam expedita soluta minima iusto, sunt quos a accusamus deleniti beatae cumque nulla autem provident! Laudantium possimus distinctio tenetur maiores? Inventore sint hic dolore commodi dolorum repudiandae, aliquid excepturi.</h2>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ava.png" alt="Nehalika" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nehalika">Nehalika</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nehalika.work@gmail.com" class="contact-link">nehalika.work@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12146999201" class="contact-link">+1 (214) 699-9201</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Experience</p>
+
+              <time>8+ Years</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mckinney, Texas, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+         <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> 
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> 
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Creative <b>Web Application Developer</b>, with strong interest in Web Application Development.
+            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build websites so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+          <p>I have experience with <b>HTML, CSS, JavaScript, React.js, Symfony, MySQL, PHP, and AWS</b>. Beyond my work, I find satisfaction in stretching my horizons in terms of knowledge, keeping up with daily technical advancements, and exploring new places.</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Gopibabu" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gopibabu</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nehalika was hired to create our corporate identity, and we were extremely pleased with the results. She has extensive experience and is deeply attentive to client needs. As a PHP Web Developer, she consistently delivers robust web app interfaces, showcasing her expertise in Laravel and React.js. Her commitment to quality is evident in her comprehensive test cases, and her proficiency in optimizing customer experiences makes her an invaluable asset. Nehalika's contributions have significantly enhanced our project's success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Vamsi S" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vamsi S</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nehalika is an outstanding UI Developer specializing in React.js and Laravel's Blade Templating Engine for Data Management. She has significantly improved internal user engagement through responsive UI design and optimized API response times using Laravel, Swagger, and Redis. With expertise in Postgres, Nehalika streamlines data retrieval for Risk Assessment and Reporting. Her commitment to quality, thorough testing, and collaborative work methodologies greatly elevate project success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Lakshmi J" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lakshmi J</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Collaborating with Nehalika has been an outstanding experience. As an experienced Full Stack Web Developer, she excels at crafting visually stunning interfaces and enhancing user satisfaction through innovative features. Notably, she played a crucial role in optimizing transaction processing speeds and reducing data retrieval times. Her unwavering commitment to quality, rigorous testing, and deep knowledge of security compliance have been instrumental to our project's success. Nehalika is an invaluable team member, consistently making impactful contributions in Agile environments, conducting meticulous code reviews, and ensuring seamless feature integration.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Divya J" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Divya J</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working along with Nehalika has been exceptional. As a dynamic Web Application Developer, they excel in crafting intuitive WordPress interfaces and implementing robust User Authentication and Roles. Nehalika demonstrated efficiency in developing web services, optimizing database models, and executing comprehensive testing. Their deployment of scalable applications showcases cost-cutting initiatives, enhancing overall project effectiveness.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Gopi S" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Gopi S</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Nehalika was hired to create a corporate identity. We were very pleased with the work done. He has a
+                  lot of experience
+                  and is very concerned about the needs of client.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/insomnia.jpg"width ="150px", height="150px" alt="client logo" class="clients-image">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ovia_health_logo.jpg"width ="150px", height="150px" alt="client logo" class="clients-image">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/service-express"width ="150px", height="150px" alt="client logo" class="clients-image">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/john deere.png"width ="150px", height="150px" alt="client logo" class="clients-image">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Snapdeal-Logo.png"width ="150px", height="150px" alt="client logo" class="clients-image">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The University Of Texas at Arlington</h4>
+
+              <!-- <span>2007 — 2008</span> -->
+
+              <p class="timeline-text">
+                Masters in Computer and Information Sciences(Arlington, Tx)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ANU</h4>
+
+              <!-- <span>2006 — 2007</span> -->
+
+              <p class="timeline-text">
+                Bachelors in Computer Science & Engineering(India)
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SFS High School</h4> -->
+
+              <!-- <span>2002 — 2004</span> -->
+
+              <!-- <p class="timeline-text">
+                SFS High School(Nagulapalem, India)
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Insomnia Cookies,PA</h4>
+
+              <h4 class="h4 timeline-item-title">PHP Web Developer</h4>
+
+              <span>November 2022 – Present</span>
+
+              <p class="timeline-text">
+                Implemented Payment Gateway Integration, resulting in a 15% increase in completed transactions. Developed dynamic User Interfaces using PHP, Laravel, and Reactjs, leading to a 25% rise in user visits and a 30% improvement in order placements. Utilizing Eloquent ORM and Blade templating, optimized database interactions and improved page load times by 15%. Created efficient web services for seamless front-end and back-end communication and automated tasks using the Artisan tool. Designed Database Models and complex SQL queries for optimal data handling, and enhanced security and user experience with Middleware, reducing security incidents. Additionally, deployed applications on AWS, improving scalability and performance, actively participated in Agile methodologies to ensure project success, and integrated secure payment solutions, increasing successful transactions by 25% and user trust by 20%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ovia Health, MA</h4>
+              <h4 class="h4 timeline-item-title">PHP Web Developer</h4>
+
+              <span>Oct 2020 - Oct 2022</span>
+
+              <p class="timeline-text">
+                Developed responsive user interfaces for Ovia Fertility with Reactjs and Tailwind, boosting engagement and revenue. Constructed web services for Ovia Pregnancy using PHP and Laravel, improving page load times by 25% and user retention by 12%. Optimized database models with Postgres, enhancing data management. Implemented PHPUnit tests, reducing post-deployment issues by 40%. Deployed applications on Azure for scalability. Collaborated in Agile development, contributing to sprint planning and fostering teamwork. Utilized Tailwind CSS for consistent UI and handled support tasks to maintain reliability. Employed Git and SVN for version control, reducing code conflicts by 30%. Conducted code reviews, improving quality by 25%. Worked with cross-functional teams to deliver high-quality applications. Proficient in Python, C, Node.js, Vue.js, Unix scripting, CI/CD processes, and Docker. Integrated PostgreSQL and Redis for efficient data storage and caching, strengthening project foundations with networking concepts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Service Express, MI</h4>
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>June 2019 - Sept 2020</span>
+
+              <p class="timeline-text">
+                Constructed user interfaces with PHP, Symfony, Drupal, Angular, and Reactjs, enhancing user experience and SEO. Developed web services for Data Center Support, reducing lead-to-deal conversion by 10% and increasing deal closures by 25%. Designed database models with complex SQL queries, improving data storage and customer lifetime value (CMV). Automated database maintenance with bash scripting and ensured code quality with PHPUnit and Jasmine tests. Implemented CI/CD pipelines and deployed applications to Azure, reducing downtime by 15% and boosting customer satisfaction by 20%. Configured web servers with Apache. Collaborated in Agile teams and actively engaged in code reviews. Utilized Tailwind and CSS for user interfaces, enhancing upselling features. Improved application performance by 25% and customer engagement by 20% using PHP and Symfony. Integrated Headless Drupal, optimized data migrations, and engaged in social media outreach. Implemented AWS services (SQS, Lambda, ECS, EC2, RDS) and collaborated with QA teams for testing.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">John Deere,IL</h4>
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>Feb 2018 - May 2019</span>
+
+              <p class="timeline-text">
+                Developed user-friendly interfaces with JQuery, JavaScript, and PHP. Built RESTful web services for JDLink™ Telematics System, improving data accessibility and real-time monitoring, resulting in a 12% increase in user visits and enhanced satisfaction. Designed optimized database models, reducing page load times and increasing retention and revenue. Wrote efficient SQL queries, boosting data processing by 30% and user interactions by 15%. Implemented tests for bug reduction and increased user trust and loyalty. Deployed applications to cloud for 99.9% uptime and scalability. Used Drupal and WordPress for enhanced functionalities and applied UX principles. Employed Git for efficient version control and automated deployment with Jenkins. Developed custom modules for improved engagement and media management. Participated in team mentoring, maintaining proficiency in NoSQL databases and utilizing LAMP stack and Kanban methodologies. Utilized Google Cloud Platform for business growth and scalability, emphasizing a full-stack approach to development.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Snapdeal, IND</h4>
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>July 2013 - Sept 2016</span>
+
+              <p class="timeline-text">
+                Orchestrated seamless Product Listings with PHP and Symfony, increasing user engagement and product sales. Engineered robust web services for improved Search and Navigation accuracy, boosting product discovery and purchases by 12%. Formulated optimized database models for Seller Dashboard, reducing processing time by 30% and boosting new seller registrations. Ensured quality assurance in Order Management, reducing errors by 20% and enhancing customer satisfaction. Spearheaded cloud deployments for Payment Gateway Integration and applied SOLID principles for robust web applications. Implemented efficient version control with Github and automated build/deployment with Jenkins. Crafted responsive interfaces with jQuery, Bootstrap, CSS, and JavaScript for Customer Support. Engineered secure payment integration solutions, reducing disputes by 20% and increasing successful tracking by 15%. Executed projects with a structured Waterfall methodology for ongoing product feature releases.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Application Development</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Larvel</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Symfony</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Reactjs</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106813.84863313983!2d-96.73571697023124!3d33.21585871582795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c125aa0745495%3A0xaa290ada6420a624!2sMcKinney%2C%20TX!5e0!3m2!1sen!2sus!4v1716916638979!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
